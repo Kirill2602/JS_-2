@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2ce2ce7-2199-4bbe-8144-e8a950207172" name="Default Changelist" comment="Commit Lesson_1">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JS_-2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/chevronLeft.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/chevronRight.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/featured/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/featured/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/featured/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/featured/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/featured/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/featured/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/filter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/filterArrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/filterHover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/services/assurance.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/services/delivery.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/services/discount.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/subscribe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/subscribeUser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Sass File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1uJiUqIEFyYhXt9iqAm3Yr0XLST" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2ce2ce7-2199-4bbe-8144-e8a950207172" name="Default Changelist" comment="" />
+      <created>1624390110873</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624390110873</updated>
+      <workItem from="1624390112980" duration="322000" />
+      <workItem from="1624604873759" duration="6768000" />
+    </task>
+    <task id="LOCAL-00001" summary="Commit Lesson_1">
+      <created>1624390285421</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624390285421</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit Lesson_1">
+      <created>1624610529091</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624610529091</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit Lesson_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Lesson_1" />
+  </component>
+</project>
