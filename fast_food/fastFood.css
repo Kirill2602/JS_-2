@@ -1,0 +1,28 @@
+.burgerClass{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #000;
+    background-color: bisque;
+}
+.burgerImg{
+    width: 200px;
+    height: 200px;
+}
+
+.burgerCart{
+    margin-bottom: 20px;
+}
+.resultBtn{
+    width: 264px;
+    min-height: 90px;
+    margin-bottom: 50px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.topping{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
