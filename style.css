@@ -1,0 +1,93 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: end;
+    padding-right: 20px;
+}
+.totalPrice{
+    text-align: center;
+}
+.totalPriceDiv{
+    font-size: 20px;
+    color: red;
+    margin: 20px 0px 0px 20px;
+}
+
+.goods-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.cart-button {
+    margin-top: 20px;
+    padding: 10px 35px;
+    margin-bottom: 20px;
+    background-color: grey;
+}
+
+.cart-button:hover {
+    background-color: darkgray;
+    box-shadow: 0 0 55px 4px rgba(0, 2, 3, .05);
+}
+
+.img {
+    width: 256px;
+    height: 305px;
+}
+
+.goods-item {
+    text-align: center;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    width: 276px;
+}
+
+.goods-item:hover {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+}
+
+.itemName {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.price {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 35px;
+    margin-bottom: 20px;
+}
+
+.inBasket {
+    position: absolute;
+    right: 109px;
+    top: 65px;
+    border: 2px solid black;
+    width: 500px;
+    min-height: 200px;
+    background-color: #fff;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.addInBasket {
+    margin: 20px;
+}
+
+.inBasketItm {
+    width: 100%;
+    min-height: 100%;
+    border: 1px solid #000;
+}
