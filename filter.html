@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>eShop</title>
+    <link rel="stylesheet" href="filter.css">
+</head>
+<body>
+<div id="app">
+    <header>
+        <input placeholder="Поиск по названию товара" type="text" class="goods-search" v-model="searchLine"
+               id="searchInput">
+        <!--        <button class="search-button" type="button" @click="filterGoods">Искать</button>-->
+
+
+        <button class="close-cart" type="button" @click='isVisibleCart = !isVisibleCart;'>Корзина</button>
+    </header>
+    <main>
+        <div class="goods-list" v-if="goods.length !== 0">
+            <div class="goods-item" v-for="good in filteredGoods">
+                <h3>ID: {{good.id_product}}</h3>
+                <h3>Название товара: {{ good.product_name }}</h3>
+                <p>Цена товара: {{ good.price }} рублей</p>
+                <button id="addGood" @click="addInBasket(good)" class="inBasketBtn">В корзину</button>
+            </div>
+        </div>
+        <div class="basket-list" id="basket" v-if="isVisibleCart">
+            <h2 class="basket-header">Корзина</h2>
+            <h2 v-if="cartGoods.length === 0">Ваша корзина пуста</h2>
+            <div v-else>
+                <div class="basketInfo">
+                    <h3>Кол-во товаров: {{count}} шт</h3>
+                    <h2>Общая сумма корзины: {{basketSum}} руб</h2>
+                </div>
+                <div class="goods-item" v-for="(good, idx) in cartGoods">
+                    <p>Название товара: {{good.product_name}}</p>
+                    <p>ID товара: {{good.id_product}}</p>
+                    <p>Цена товара: {{good.price}}</p>
+                    <p>Кол-во товара в корзине: {{good.amount}} шт</p>
+                    <button type="submit" @click="delItemBasket(idx)">Удалить</button>
+                </div>
+
+                <div class="removeBtn">
+                    <button class="cart-button" id="remove" @click="remove()">Очистить корзину</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script src="filter.js"></script>
+</body>
+</html>
